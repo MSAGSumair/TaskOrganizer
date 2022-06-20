@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.2.32602.215
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaskOrganizer.Core", "TaskOrganizer.Core\TaskOrganizer.Core.csproj", "{849DE408-EE9E-4AFB-A012-45B6E1B5928C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TaskOrganizer.Core", "TaskOrganizer.Core\TaskOrganizer.Core.csproj", "{849DE408-EE9E-4AFB-A012-45B6E1B5928C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaskOrganizer.Application", "TaskOrganizer.Application\TaskOrganizer.Application.csproj", "{1A506DBB-D99C-440A-BD6F-8FD654347AB4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TaskOrganizer.Application", "TaskOrganizer.Application\TaskOrganizer.Application.csproj", "{1A506DBB-D99C-440A-BD6F-8FD654347AB4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaskOrganizer.Infrastructure", "TaskOrganizer.Infrastructure\TaskOrganizer.Infrastructure.csproj", "{B736217A-6C7B-411C-A1AF-A479AE3C85C1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{1A506DBB-D99C-440A-BD6F-8FD654347AB4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1A506DBB-D99C-440A-BD6F-8FD654347AB4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1A506DBB-D99C-440A-BD6F-8FD654347AB4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B736217A-6C7B-411C-A1AF-A479AE3C85C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B736217A-6C7B-411C-A1AF-A479AE3C85C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B736217A-6C7B-411C-A1AF-A479AE3C85C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B736217A-6C7B-411C-A1AF-A479AE3C85C1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
